@@ -81,8 +81,11 @@ Ubuntu 16.04 LTS (Xenial)? See repository**
 **Short Example - Install 32-bit WINE, Wine Tricks, and Additional Fonts**
 
 > `sudo dpkg --add-architecture i386`
+>
 > `# sudo add-apt-repository ppa:wine/wine-builds #` **See previous note**
+>
 > `sudo aptitude update`
+>
 > `sudo aptitude install wine:i386 winetricks msttcorefonts`
 
 **TBD: Configuring a WINE Environment**
@@ -90,6 +93,7 @@ Ubuntu 16.04 LTS (Xenial)? See repository**
 **Task: Determine Diagnostic Platform Information, Using winetricks**
 
 > `script winetricks.log`
+>
 > `winetricks`
 **Ed. Note: PC's processor may delay for a period of time, while
 wineboot runs**
