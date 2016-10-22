@@ -118,8 +118,8 @@ The installed application may then be run from the shell command line.
 
 > `wine "~/.wine/drive_c/Program Files/path to app/app.exe"`
 
-Similarly, the appropriate `wine` **shell command** may be added to a
-**desktop** launcher or **menu** entry.
+Similarly, the appropriate `wine` *shell command* may be added to a
+*desktop* launcher or *menu* entry.
 
 
 [wineubuntu]: https://wiki.winehq.org/Ubuntu
