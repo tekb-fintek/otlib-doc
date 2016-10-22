@@ -75,12 +75,40 @@ Open Trading Library - Documentation - FinTek @ TekB
 
 * [Multiarch HOWTO][debmulti]
 
+**FIXME: Ubuntu WINE Team PPA may not be distributing packages for
+Ubuntu 16.04 LTS (Xenial)? See repository**
+
 **Short Example - Install 32-bit WINE, Wine Tricks, and Additional Fonts**
 
+> `sudo dpkg --add-architecture i386`
+> `# sudo add-apt-repository ppa:wine/wine-builds #` **See previous note**
+> `sudo aptitude update`
 > `sudo aptitude install wine:i386 winetricks msttcorefonts`
 
-
 **TBD: Configuring a WINE Environment**
+
+**Task: Determine Diagnostic Platform Information, Using winetricks**
+
+> `script winetricks.log`
+> `winetricks`
+**Ed. Note: PC's processor may delay for a period of time, while
+wineboot runs**
+
+...Subsequently, selecting the **menu entry** in the GUI:
+> Select the Default wineprefix
+
+The winetricks application will create a `~/.wine/` directory, along
+with appropriate configuration files.
+
+...lastly
+> Run Winecfg
+
+To exit the GUI:
+> Cancel
+
+**Short Example - Installing a Trading Platform**
+
+> `wine installer.exe`
 
 
 [wineubuntu]: https://wiki.winehq.org/Ubuntu
