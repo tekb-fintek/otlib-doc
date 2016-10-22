@@ -19,7 +19,7 @@ Open Trading Library - Documentation - FinTek @ TekB
 * MetaTrader (MT4, MT5)
 * Ctrader
 * Others
-  * **Ed. Note: Disributed by Broker**
+  * **Ed. Note: Some Platforms Distributed by Broker**
 
 ## Building a Trading Terminal
 
