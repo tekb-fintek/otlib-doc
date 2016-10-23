@@ -125,6 +125,27 @@ The installed application may then be run from the shell command line.
 Similarly, the appropriate `wine` *shell command* may be added to a
 *desktop* launcher or *menu* entry.
 
+**TBD: Adding Menu Entries for WINE Applications (KDE)**
+
+
+**Notes**
+
+* `xdg-desktop-menu` shell command, provided from platform software package **xdg-utils**
+
+* Menus created under `~/.local/share/desktop-directories/`
+x
+    * `WINE.directory`
+
+    * `WINE-2.directory`
+
+    * `wine-wine.directory` menu
+
+    * `wine-Programs.directory` menu
+
+    * Individual menus created during application install, analagous
+      to entries in the Microsoft Windows 'Start Menu'
+
+
 ## Extending the Trading Platform
 
 ### Case Study: Developing with Spotware cTrader
