@@ -125,6 +125,28 @@ The installed application may then be run from the shell command line.
 Similarly, the appropriate `wine` *shell command* may be added to a
 *desktop* launcher or *menu* entry.
 
+## Extending the Trading Platform
+
+### Case Study: Developing with Spotware cTrader
+
+**Ed. Note:** C#; CLI; Dot Net
+
+### Case Study: Developing with MetaQuotes MetaTrader
+
+Topics
+* MetaTrader Query Language (MQL)
+    * **Ed. Note:** Not entirely C++
+* MetaTrader Platform Architecture
+    * **Ed. Notes:**
+        * Program Kinds (Script, Expert Adivsor, ...)
+	* Program Lifecycle (Differs per each Program Kind)
+	* MQL Terminal Object Model (Unofficial)
+	* Header Files and MQL Libraries
+	* MetaTrader's MQL Compiler
+	* Working with Timers
+	* Working with the GUI
+	* Using External DLLs
+
 
 [wineubuntu]: https://wiki.winehq.org/Ubuntu
 [winemulti]: https://wiki.winehq.org/Building_Biarch_Wine_On_Ubuntu
