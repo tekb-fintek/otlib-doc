@@ -133,7 +133,7 @@ Similarly, the appropriate `wine` *shell command* may be added to a
 * `xdg-desktop-menu` shell command, provided from platform software package **xdg-utils**
 
 * Menus created under `~/.local/share/desktop-directories/`
-x
+
     * `WINE.directory`
 
     * `WINE-2.directory`
@@ -144,6 +144,14 @@ x
 
     * Individual menus created during application install, analagous
       to entries in the Microsoft Windows 'Start Menu'
+
+* In KDE 5, the application launchers created when sofware
+  applications are installed with WINE may appear under the KDE
+  desktop's "Lost & Found" applications menu.
+  
+* The KDE Menu Editor can be run by "Right-clicking" on the
+  KDE menu display button, then selecting the "Edit Applications"
+  entry in the corresponding **context menu**
 
 
 ## Extending the Trading Platform
@@ -159,7 +167,7 @@ Topics
     * **Ed. Note:** Not entirely C++
 * MetaTrader Platform Architecture
     * **Ed. Notes:**
-        * Program Kinds (Script, Expert Adivsor, ...)
+        * Program Kinds (Script, Indicator, Expert Adivsor, ...)
 	* Program Lifecycle (Differs per each Program Kind)
 	* MQL Terminal Object Model (Unofficial)
 	* Header Files and MQL Libraries
